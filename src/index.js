@@ -1,6 +1,5 @@
 const cluster = require('cluster');
 const OS = require('os');
-const fs = require('fs');
 
 
 const DEFAULT_MIN_WORKERS_AMOUNT = 1;
@@ -113,7 +112,6 @@ const updateWorkersStatus = async (minWorkersAmount, maxWorkersAmount, maxWorker
         addWorkers(minWorkersAmount);
     }
     workers = workers.filter(isWorkerAlive);
-    console.log('current instances', workers.length);
 };
 
 

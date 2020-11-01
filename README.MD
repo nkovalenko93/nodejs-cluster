@@ -18,7 +18,7 @@ User can specify a few parameters:
 **Usage example:**
 ```
 const http = require('http');
-const nodejsCluster = require('nodejs-cluster');
+const nodejsCluster = require('node-autobalanced-cluster');
 
 const startServer = () => {
     http.createServer((req, res) => {
@@ -32,6 +32,6 @@ nodejsCluster.init({
     minWorkersAmount: 1,
     maxWorkersAmount: 10,
     maxWorkersDelay: 1000,
-    workerStateCheckInterval: 1000
+    workerStateCheckInterval: 5000
 });
 ```

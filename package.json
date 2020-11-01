@@ -1,7 +1,7 @@
 {
-  "name": "nodejs-cluster",
-  "version": "1.0.0",
-  "description": "Cluster for nodejs server",
+  "name": "node-autobalanced-cluster",
+  "version": "1.0.3",
+  "description": "Autobalanced cluster for nodejs server",
   "main": "src/index.js",
   "scripts": {
     "start": "node src",
@@ -14,7 +14,10 @@
   "keywords": [
     "node",
     "nodejs",
-    "cluster"
+    "cluster",
+    "autobalanced",
+    "master",
+    "worker"
   ],
   "author": "Nikolai Kovalenko",
   "license": "ISC",
