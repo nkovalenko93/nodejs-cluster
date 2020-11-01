@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-cluster",
+  "version": "1.0.0",
+  "description": "Cluster for nodejs server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkovalenko93/nodejs-cluster.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "cluster"
+  ],
+  "author": "Nikolai Kovalenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nkovalenko93/nodejs-cluster/issues"
+  },
+  "homepage": "https://github.com/nkovalenko93/nodejs-cluster#readme"
+}
